@@ -6,12 +6,17 @@
 //
 
 #define GL_SILENCE_DEPRECATION
+
 #include <iostream>
 
-#include "glut.h"
+#ifdef _WIN32
+    #include "glut.h"
+#elif __APPLE__
+    #include <OpenGL/OpenGL.h>
+    #include <GLUT/GLUT.h>
+#endif
 
-//#include <OpenGL/OpenGL.h>
-//#include <GLUT/GLUT.h>
+
 #define PI 3.14
 
 void reshape(int w, int h)
