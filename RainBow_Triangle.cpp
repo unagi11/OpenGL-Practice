@@ -5,16 +5,7 @@
 //  Created by 장이국 on 2021/03/10.
 //
 
-#define GL_SILENCE_DEPRECATION
-
-#include <iostream>
-
-#ifdef _WIN32
-    #include "glut.h"
-#elif __APPLE__
-    #include <OpenGL/OpenGL.h>
-    #include <GLUT/GLUT.h>
-#endif
+#include "Header.h"
 
 #define PI 3.14
 
