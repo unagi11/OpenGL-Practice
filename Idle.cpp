@@ -17,8 +17,9 @@ void MyDisplay()
 {
     //glClear(GL_COLOR_BUFFER_BIT);
 
-    glPointSize(4);
-    glBegin(GL_POINTS);
+    //glPointSize(4);
+    glBegin(GL_POLYGON);
+//    glBegin(GL_POINTS);
     
     GLfloat temp = Delta * 3.14 * 50;
     GLfloat radius = sin(Delta * 10) * 2;
