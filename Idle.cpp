@@ -54,7 +54,7 @@ void MyIdle()
     glutPostRedisplay();
 }
 }
-
+/*
 int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
@@ -71,3 +71,4 @@ int main(int argc, char** argv)
     
     return 0;
 }
+*/

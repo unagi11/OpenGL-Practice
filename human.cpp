@@ -1,6 +1,7 @@
 
 #include "Header.h"
 #define DEG2RAD 3.14
+#define M_PI 3.14
 
 void hexagon(int x,int y){
     //float rad;

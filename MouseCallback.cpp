@@ -8,6 +8,7 @@
 #include "Header.h"
 
 using namespace std;
+
 namespace MouseCallback {
 
 float topLeftX, topLeftY, bottomRightX, bottomRightY;
@@ -47,7 +48,7 @@ void myMouseMotion(int x, int y){
 }
 
 }
-/*
+
 int main(int argc, char **argv)
 {
     glutInit(&argc, argv);
@@ -68,4 +69,3 @@ int main(int argc, char **argv)
     return 0;
     
 }
-*/
